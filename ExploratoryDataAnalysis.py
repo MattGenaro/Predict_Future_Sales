@@ -18,11 +18,11 @@ from pylab import rcParams
 import numpy as np
 
 #Dataframes of work
-df_items = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Predict_Future_Sales/items.csv', engine='python')
-df_item_cat = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Predict_Future_Sales/item_categories.csv', engine='python')
-df_sales_train = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Predict_Future_Sales/sales_train.csv', engine='python')
-df_shops = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Predict_Future_Sales/shops.csv', engine='python')
-df_test = pd.read_csv('C:/Users/genar/OneDrive/Área de Trabalho/Projetos/Predict_Future_Sales/test.csv', engine='python')
+df_items = pd.read_csv('/Assets/Predict_Future_Sales/items.csv')
+df_item_cat = pd.read_csv('/Assets/Predict_Future_Sales/item_categories.csv')
+df_sales_train = pd.read_csv('/Assets/Predict_Future_Sales/sales_train.csv')
+df_shops = pd.read_csv('/Assets/Predict_Future_Sales/shops.csv')
+df_test = pd.read_csv('/Assets/Predict_Future_Sales/test.csv')
 
 #First look into sales data
 df_sales_train.head(5)
